@@ -3644,17 +3644,6 @@ td:last-child {
 .intro-header__big-type {
 }
 
-@media (max-width: 600px) {
-  .intro-header__overline {
-    font-size: 1rem !important;
-  }
-  .intro-header__big-type {
-    font-size: 2rem !important;
-    line-height: 1.1 !important;
-  }
-}
-}
-
 .intro-pic-primary {
     --pic-primary-width: calc((100 / (12/4)) * 1%);
     --pic-primary-mleft: calc(var(--pic-primary-width) / 2);
