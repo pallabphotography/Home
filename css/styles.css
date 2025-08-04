@@ -470,7 +470,7 @@
     --type-size-body               : var(--text-base);
     --type-size-body-sm            : var(--text-sm);
     --type-size-all-caps           : var(--text-sm);
-    --type-size-h1                 : clamp(calc(var(--text-display) * 0.4), calc(((var(--text-display) - 1rem) + 2vw) * 0.4), calc(var(--text-2display) * 0.4));
+    --type-size-h1                 : clamp(var(--text-display), calc((var(--text-display) - 1rem) + 2vw), var(--text-2display));
     --type-size-h2                 : clamp(var(--text-2xl), calc((var(--text-2xl) - .75rem) + 1.5vw), var(--text-3xl));
     --type-size-h3                 : clamp(var(--text-xl), calc((var(--text-xl) - .5rem) + 1vw), var(--text-2xl));
     --type-size-h4                 : var(--text-lg);
@@ -523,10 +523,17 @@ object,
 iframe,
 h1,
 h2,
-     font-size: 2.5vw !important;
-     margin-top: 2.5vw;
-     line-height: 1.1;
- }
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
 big,
 cite,
 code,
@@ -1563,20 +1570,9 @@ h6,
     margin-bottom: var(--vspace-0_5);
 }
 
- h1,
- .h1 {
-     font-size: 3.5rem !important;
-     margin-top: 1.5rem;
-     line-height: 1.1;
- }
-
-@media (max-width: 600px) {
-  h1,
-  .h1 {
-    font-size: 2rem !important;
-    margin-top: 1rem;
-    line-height: 1.15;
-  }
+h1,
+.h1 {
+    font-size     : var(--type-size-h1);
     line-height   : var(--type-line-height-headings);
     letter-spacing: var(--type-spacing-headings);
 }
@@ -3629,9 +3625,9 @@ td:last-child {
 }
 
 .intro-header__big-type {
-    font-size  : clamp(var(--text-display), var(--text-3xl) + 10vw, 18.4rem);
-    line-height: 1;
-    margin-top : 0;
+    font-size  : 6.9rem !important;
+    line-height: 1.05 !important;
+    margin-top : 2rem !important;
 }
 
 .intro-pic-primary {
