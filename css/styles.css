@@ -118,6 +118,23 @@
     --color-1-200                 : #b5dacb;
     --color-1-300                 : #89bfac;
     --color-1-400                 : #65a48f;
+}
+
+/* Typography for Welcome and Pallab Photography text */
+.welcome-text {
+  font-size: 2rem;
+  font-family: var(--font-2), serif;
+  font-weight: 500;
+}
+
+.pallab-photography-text {
+  font-size: 4rem;
+  font-family: var(--font-2), serif;
+  font-weight: 700;
+
+}
+
+:root {
     --color-1-500                 : #468672;
     --color-1-600                 : #366b5b;
     --color-1-700                 : #2e574a;
