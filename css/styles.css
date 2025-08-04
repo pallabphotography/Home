@@ -1572,7 +1572,9 @@ h6,
 
  h1,
  .h1 {
-     font-size: 2rem !important;
+     font-size: 3.5rem !important;
+     margin-top: 1.5rem;
+     line-height: 1.1;
     line-height   : var(--type-line-height-headings);
     letter-spacing: var(--type-spacing-headings);
 }
