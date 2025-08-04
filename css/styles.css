@@ -3620,7 +3620,7 @@ td:last-child {
     font-family   : var(--type-headings);
     font-weight   : 400;
     font-style    : italic;
-    font-size     : var(--text-lg);
+    font-size     : 3.45rem !important;
     line-height   : 1;
     letter-spacing: -0.02em;
     color         : var(--color-text);
