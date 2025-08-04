@@ -3645,6 +3645,18 @@ td:last-child {
     font-size  : 6.9rem !important;
     line-height: 1.05 !important;
     margin-top : 2rem !important;
+    word-break : break-word;
+}
+
+@media (max-width: 600px) {
+  .intro-header__big-type {
+    font-size: 3.5rem !important;
+    line-height: 1.1 !important;
+  }
+  .intro-header__overline {
+    font-size: 1.75rem !important;
+  }
+}
 }
 
 .intro-pic-primary {
