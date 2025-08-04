@@ -1575,6 +1575,15 @@ h6,
      font-size: 3.5rem !important;
      margin-top: 1.5rem;
      line-height: 1.1;
+ }
+
+@media (max-width: 600px) {
+  h1,
+  .h1 {
+    font-size: 2rem !important;
+    margin-top: 1rem;
+    line-height: 1.15;
+  }
     line-height   : var(--type-line-height-headings);
     letter-spacing: var(--type-spacing-headings);
 }
