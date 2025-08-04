@@ -519,32 +519,9 @@
   /* gutter
    */
     --gutter : clamp(1rem, calc(2vw + .2rem), 2.2rem);
-    position: absolute;
-    right: calc(var(--gutter) * 2);
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    gap: var(--vspace-0_5);
-    z-index: 101;
 }
 
-/* Ensure navbar social icons are aligned and white */
-.header-social__icon {
-    display: flex;
-    align-items: center;
-}
-.header-social__icon svg path,
-.header-social__icon svg circle {
-    fill: #fff !important;
-    transition: all 0.3s var(--ease-snappy-polished);
-}
 
-/* Ensure intro body social icons are white */
-.intro-block-content__social a svg path,
-.intro-block-content__social a svg circle {
-    fill: #fff !important;
-    transition: all 0.3s var(--ease-snappy-polished);
-}
 /* ====================================================================
  * # CSS RESET
  *
