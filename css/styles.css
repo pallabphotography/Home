@@ -1570,9 +1570,9 @@ h6,
     margin-bottom: var(--vspace-0_5);
 }
 
-h1,
-.h1 {
-    font-size     : var(--type-size-h1);
+ h1,
+ .h1 {
+     font-size: 2rem !important;
     line-height   : var(--type-line-height-headings);
     letter-spacing: var(--type-spacing-headings);
 }
