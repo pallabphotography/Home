@@ -523,17 +523,10 @@ object,
 iframe,
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
+     font-size: 2.5vw !important;
+     margin-top: 2.5vw;
+     line-height: 1.1;
+ }
 big,
 cite,
 code,
