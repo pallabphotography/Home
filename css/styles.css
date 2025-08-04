@@ -3642,6 +3642,17 @@ td:last-child {
 }
 
 .intro-header__big-type {
+}
+
+@media (max-width: 600px) {
+  .intro-header__overline {
+    font-size: 0.875rem !important;
+  }
+  .intro-header__big-type {
+    font-size: 1.75rem !important;
+    line-height: 1.1 !important;
+  }
+}
     font-size  : 6.9rem !important;
     line-height: 1.05 !important;
     margin-top : 2rem !important;
